@@ -40,12 +40,12 @@ void signal_exit(                 //
 
   if (signal_code < 0) {
     exit_status = global_loc_code * 8 + global_abort_code * 2 + 1;
-    tprintf ("Signal_exit %d ABORT. LocCode: %d  AbortCode: %d\n",
+    printf ("Signal_exit %d ABORT. LocCode: %d  AbortCode: %d\n",
       exit_status, global_loc_code, global_abort_code);
   }
   else {
     exit_status = global_loc_code * 8 + signal_code * 2;
-    tprintf ("Signal_exit %d SIGNAL ABORT. LocCode: %d  SignalCode: %d\n",
+    printf ("Signal_exit %d SIGNAL ABORT. LocCode: %d  SignalCode: %d\n",
       exit_status, global_loc_code, signal_code);
   }
 
@@ -77,7 +77,7 @@ void err_exit() {
 
 void signal_termination_handler(  //The real signal
                                 int sig) {
-  tprintf ("Signal_termination_handler called with signal %d\n", sig);
+  printf ("Signal_termination_handler called with signal %d\n", sig);
   switch (sig) {
     case SIGABRT:
       signal_exit (-1);          //use abort code

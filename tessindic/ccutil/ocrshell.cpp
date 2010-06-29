@@ -353,7 +353,7 @@ ESTRIP_DESC *ocr_get_first_image_strip() {  /*get image strip */
   inT16 result;                  /*of wait/release */
 
   if (ocr_state != OCS_SETUP_INFO) {
-    tprintf ("Bad state reading strip");
+    printf ("Bad state reading strip");
     ocr_error(OCR_ERR_BAD_STATE);
     return NULL;                 /*incorrect state */
   }
@@ -364,17 +364,17 @@ ESTRIP_DESC *ocr_get_first_image_strip() {  /*get image strip */
 
   result = wait_for_mutex ();
   if (result != OKAY) {
-    tprintf ("Mutax wait failed reading strip");
+    printf ("Mutax wait failed reading strip");
     return NULL;                 /*HP dead */
   }
   result = release_mutex ();
   if (result != OKAY) {
-    tprintf ("Mutax release failed reading strip");
+    printf ("Mutax release failed reading strip");
     return NULL;                 /*HP dead */
   }
   result = wait_for_hp (READIM_TIMEOUT);
   if (result != OKAY) {
-    tprintf ("Wait for HP failed reading strip");
+    printf ("Wait for HP failed reading strip");
     return NULL;                 /*HP dead */
   }
   lines_read = strip->strip_size;/*lines read so far */

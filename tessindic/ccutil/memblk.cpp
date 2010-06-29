@@ -278,7 +278,7 @@ void MEM_ALLOCATOR::display_counts() {  //count up
   check_mem ("Displaying counts", JUSTCHECKS);
   buckets = mem_countbuckets;
   bucketsize = (malloc_serial - 1) / buckets + 1;
-  tprintf ("\nEach bucket covers %g counts.\n",
+  printf ("\nEach bucket covers %g counts.\n",
     (double) bucketsize * malloc_div_ratio);
   for (callindex = 0; callindex < entries; callindex++) {
     if (callers[callindex].free_list != NULL) {
@@ -334,41 +334,41 @@ void MEM_ALLOCATOR::display_counts() {  //count up
         freeindex++)
       totalfrees += callers[callindex].free_list[freeindex].count;
       if (totalspace != 0 || totalfrees != 0) {
-        tprintf ("alloc_mem at %d : total held=%d(%d), frees=%d.\n",
+        printf ("alloc_mem at %d : total held=%d(%d), frees=%d.\n",
           callers[callindex].caller,
           totalchunks, totalspace * sizeof (MEMUNION),
           totalfrees);
       }
       if (totalspace > 0) {
         for (freeindex = 0; freeindex < buckets; freeindex++) {
-          tprintf ("%d(%d) ",
+          printf ("%d(%d) ",
             callers[callindex].counts[freeindex * 4],
             callers[callindex].counts[freeindex * 4 +
             1] * sizeof (MEMUNION));
         }
-        tprintf ("\n");
+        printf ("\n");
       }
       if (totalfrees != 0) {
-        tprintf ("Calls to free : ");
+        printf ("Calls to free : ");
         for (freeindex = 0; freeindex < freeentries; freeindex++) {
           if (callers[callindex].free_list[freeindex].count != 0)
-            tprintf ("%d : %d ",
+            printf ("%d : %d ",
               callers[callindex].free_list[freeindex].freeer,
               callers[callindex].free_list[freeindex].count);
         }
-        tprintf ("\n");
+        printf ("\n");
       }
       if (totalpspace != 0) {
-        tprintf ("alloc_mem_p at %d : total held=%d(%d).\n",
+        printf ("alloc_mem_p at %d : total held=%d(%d).\n",
           callers[callindex].caller,
           totalpchunks, totalpspace * sizeof (MEMUNION));
         for (freeindex = 0; freeindex < buckets; freeindex++) {
-          tprintf ("%d(%d) ",
+          printf ("%d(%d) ",
             callers[callindex].counts[freeindex * 4 + 2],
             callers[callindex].counts[freeindex * 4 +
             3] * sizeof (MEMUNION));
         }
-        tprintf ("\n");
+        printf ("\n");
       }
       free (callers[callindex].counts);
       callers[callindex].counts = NULL;
@@ -406,7 +406,7 @@ void MEM_ALLOCATOR::check(                     //check consistency
   inT32 blockindex;              //index of block
 
   if (level >= MEMCHECKS)
-    tprintf ("\nMEM_ALLOCATOR::check:at '%s'\n", string);
+    printf ("\nMEM_ALLOCATOR::check:at '%s'\n", string);
   totusedcount = 0;              //grand totals
   totusedsize = 0;
   totfreecount = 0;
@@ -417,7 +417,7 @@ void MEM_ALLOCATOR::check(                     //check consistency
                                  //current block
     block = &memblocks[blockindex];
     if (level >= MEMCHECKS)
-      tprintf ("Block %d:0x%x-0x%x, size=%d, top=0x%x, l=%d, u=%d\n",
+      printf ("Block %d:0x%x-0x%x, size=%d, top=0x%x, l=%d, u=%d\n",
         blockindex, block->blockstart, block->blockend,
         (block->blockend - block->blockstart) * sizeof (MEMUNION),
         block->topchunk, block->lowerspace, block->upperspace);
@@ -430,11 +430,11 @@ void MEM_ALLOCATOR::check(                     //check consistency
       if (chunksize < 0)
         chunksize = -chunksize;  //absolute size
       if (level >= FULLMEMCHECKS) {
-        tprintf ("%5d=%8d%c caller=%d, age=%d ", (int) chunkindex,
+        printf ("%5d=%8d%c caller=%d, age=%d ", (int) chunkindex,
           chunksize * sizeof (MEMUNION),
           chunk->size < 0 ? 'U' : 'F', chunk->owner, chunk->age);
         if (chunkindex % 5 == 4)
-          tprintf ("\n");
+          printf ("\n");
       }
                                  //illegal sizes
       if (chunksize == 0 || chunk->size == -1
@@ -459,12 +459,12 @@ void MEM_ALLOCATOR::check(                     //check consistency
     }
     if (level >= MEMCHECKS) {
       if (level >= FULLMEMCHECKS)
-        tprintf ("\n");
-      tprintf ("%d chunks in use, total size=%d bytes\n",
+        printf ("\n");
+      printf ("%d chunks in use, total size=%d bytes\n",
         (int) usedcount, usedsize * sizeof (MEMUNION));
-      tprintf ("%d chunks free, total size=%d bytes\n",
+      printf ("%d chunks free, total size=%d bytes\n",
         (int) freecount, freesize * sizeof (MEMUNION));
-      tprintf ("Largest free fragment=%d bytes\n",
+      printf ("Largest free fragment=%d bytes\n",
         biggest * sizeof (MEMUNION));
     }
     totusedcount += usedcount;   //grand totals
@@ -476,13 +476,13 @@ void MEM_ALLOCATOR::check(                     //check consistency
     totblocksize += block->blockend - block->blockstart;
   }
   if (level >= MEMCHECKS) {
-    tprintf ("%d total blocks in use, total size=%d bytes\n",
+    printf ("%d total blocks in use, total size=%d bytes\n",
       blockcount, totblocksize * sizeof (MEMUNION));
-    tprintf ("%d total chunks in use, total size=%d bytes\n",
+    printf ("%d total chunks in use, total size=%d bytes\n",
       (int) totusedcount, totusedsize * sizeof (MEMUNION));
-    tprintf ("%d total chunks free, total size=%d bytes\n",
+    printf ("%d total chunks free, total size=%d bytes\n",
       (int) totfreecount, totfreesize * sizeof (MEMUNION));
-    tprintf ("Largest free fragment=%d bytes\n",
+    printf ("Largest free fragment=%d bytes\n",
       totbiggest * sizeof (MEMUNION));
   }
   if (level >= MEMCHECKS)
@@ -750,9 +750,9 @@ MEMBLOCK *MEM_ALLOCATOR::new_block(               //get new big block
     return NULL;
   }
   if (mem_checkfreq != 0) {
-    tprintf ("\nGetting new block due to request size of %d",
+    printf ("\nGetting new block due to request size of %d",
       minsize * sizeof (MEMUNION));
-    tprintf (" from %d from %d from %d from %d from %d\n",
+    printf (" from %d from %d from %d from %d from %d\n",
       trace_caller (3), trace_caller (4), trace_caller (5),
       trace_caller (6), trace_caller (7));
     check_mem ("Getting new block", MEMCHECKS);
@@ -1002,20 +1002,20 @@ void check_struct(             //check a structure
     for (element = free_structs[struct_count]; element != NULL; element = element->ptr)
       free_count++;
     if (level >= MEMCHECKS) {
-      tprintf ("No of structs of size %d in use=%d,",
+      printf ("No of structs of size %d in use=%d,",
         (int) count, (int) structs_in_use[struct_count]);
-      tprintf (" %d free", free_count);
-      tprintf (" in %d blocks, total space=%d\n",
+      printf (" %d free", free_count);
+      printf (" in %d blocks, total space=%d\n",
         (int) block_count,
         block_count * STRUCT_BLOCK_SIZE * sizeof (MEMUNION));
       for (named_total = 0, name_index = 0;
       name_index < name_counts[struct_count]; name_index++) {
-        tprintf ("No held by %s=%d\n",
+        printf ("No held by %s=%d\n",
           owner_names[struct_count][name_index],
           owner_counts[struct_count][name_index]);
         named_total += owner_counts[struct_count][name_index];
       }
-      tprintf ("Total held by names=%d\n", named_total);
+      printf ("Total held by names=%d\n", named_total);
     }
   }
   if (structs_in_use[struct_count] + free_count

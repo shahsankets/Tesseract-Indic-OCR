@@ -108,7 +108,7 @@ INT_VARIABLE::INT_VARIABLE(                     //constructor
                           ) {
   INT_VARIABLE_C_IT it = &head;  //list iterator
 
-  //tprintf("Constructing %s\n",vname);
+  //printf("Constructing %s\n",vname);
   set_value(v);  //set the value
   name = vname;                  //strings must be static
   info = comment;
@@ -150,10 +150,10 @@ void INT_VARIABLE::print(          //print full list
   INT_VARIABLE *elt;             //current element
 
   if (fp == stdout) {
-    tprintf ("#Variables of type INT_VARIABLE:\n");
+    printf ("#Variables of type INT_VARIABLE:\n");
     for (it.mark_cycle_pt (); !it.cycled_list (); it.forward ()) {
       elt = it.data ();
-      tprintf ("%s %d #%s\n", elt->name, elt->value, elt->info);
+      printf ("%s %d #%s\n", elt->name, elt->value, elt->info);
     }
   }
   else {
@@ -218,7 +218,7 @@ BOOL_VARIABLE::BOOL_VARIABLE(                     //constructor
                             ) {
   BOOL_VARIABLE_C_IT it = &head; //list iterator
 
-  //tprintf("Constructing %s\n",vname);
+  //printf("Constructing %s\n",vname);
   set_value(v);  //set the value
   name = vname;                  //strings must be static
   info = comment;
@@ -266,10 +266,10 @@ void BOOL_VARIABLE::print(          //print full list
   BOOL_VARIABLE *elt;            //current element
 
   if (fp == stdout) {
-    tprintf ("#Variables of type BOOL_VARIABLE:\n");
+    printf ("#Variables of type BOOL_VARIABLE:\n");
     for (it.mark_cycle_pt (); !it.cycled_list (); it.forward ()) {
       elt = it.data ();
-      tprintf ("%s %c #%s\n",
+      printf ("%s %c #%s\n",
         elt->name, elt->value ? 'T' : 'F', elt->info);
     }
   }
@@ -386,10 +386,10 @@ void STRING_VARIABLE::print(FILE *fp  // file to print on
   STRING_VARIABLE *elt;          // current element
 
   if (fp == stdout) {
-    tprintf("#Variables of type STRING_VARIABLE:\n");
+    printf("#Variables of type STRING_VARIABLE:\n");
     for (it.mark_cycle_pt(); !it.cycled_list(); it.forward()) {
       elt = it.data();
-      tprintf("%s #%s %s\n", elt->name, elt->value.string(), elt->info);
+      printf("%s #%s %s\n", elt->name, elt->value.string(), elt->info);
     }
   } else {
     fprintf(fp, "#Variables of type STRING_VARIABLE:\n");
@@ -494,10 +494,10 @@ void double_VARIABLE::print(FILE *fp  // file to print on
   double_VARIABLE *elt;          // current element
 
   if (fp == stdout) {
-    tprintf("#Variables of type double_VARIABLE:\n");
+    printf("#Variables of type double_VARIABLE:\n");
     for (it.mark_cycle_pt(); !it.cycled_list(); it.forward()) {
       elt = it.data();
-      tprintf ("%s %lg #%s\n", elt->name, elt->value, elt->info);
+      printf ("%s %lg #%s\n", elt->name, elt->value, elt->info);
     }
   } else {
     fprintf(fp, "#Variables of type double_VARIABLE:\n");
@@ -546,7 +546,7 @@ DLLSYM BOOL8 read_variables_file(const char *file  // name to read
 
   fp = fopen(file + nameoffset, "r");
   if (fp == NULL) {
-    tprintf("read_variables_file:Can't open %s", file + nameoffset);
+    printf("read_variables_file:Can't open %s", file + nameoffset);
     return TRUE;                 // can't open it
   }
   while (fgets (line, MAX_PATH, fp)) {
@@ -584,7 +584,7 @@ DLLSYM BOOL8 read_variables_file(const char *file  // name to read
 
       if (!foundit) {
         anyerr = TRUE;         // had an error
-        tprintf("read_variables_file:variable not found: %s\n",
+        printf("read_variables_file:variable not found: %s\n",
           line);
       }
     }

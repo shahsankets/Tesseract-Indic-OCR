@@ -170,7 +170,7 @@ double streamtofloat(FILE* s)
       k *= 10;
     }
   } else if (c == 'e' || c == 'E')
-    tprintf("WARNING: Scientific Notation not supported!");
+    printf("WARNING: Scientific Notation not supported!");
 
   ungetc(c, s);
   double f  = static_cast<double>(v)
@@ -204,7 +204,7 @@ double strtofloat(const char* s)
       k *= 10;
     }
   } else if (*s == 'e' || *s == 'E')
-    tprintf("WARNING: Scientific Notation not supported!");
+    printf("WARNING: Scientific Notation not supported!");
 
   double f  = static_cast<double>(v)
             + static_cast<double>(w) / static_cast<double>(k);
@@ -251,6 +251,7 @@ int vfscanf(FILE* stream, const char *format, va_list ap)
   int matchinv = 0;   // Is match map inverted?
   unsigned char range_start = 0;
   off_t start_off = ftell(stream);
+  double fval;
 
   // Skip leading spaces
   SkipSpace(stream);
@@ -412,7 +413,7 @@ int vfscanf(FILE* stream, const char *format, va_list ap)
                 break;
               }
 
-              double fval = streamtofloat(stream);
+              fval = streamtofloat(stream);
               switch(rank) {
                 case RANK_INT:
                   *va_arg(ap, float *) = static_cast<float>(fval);

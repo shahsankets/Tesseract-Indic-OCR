@@ -79,7 +79,7 @@ bool read_next_box(int target_page, FILE* box_file, char* utf8_str,
           UNICHAR ch(uch + used, uch_len - used);
           int new_used = ch.utf8_len();
           if (new_used == 0) {
-            tprintf("Bad utf-8 char starting with 0x%x at line %d, col %d, \n",
+            printf("Bad utf-8 char starting with 0x%x at line %d, col %d, \n",
                     uch[used], used + 1, line);
             count = 0;
             break;
@@ -87,12 +87,12 @@ bool read_next_box(int target_page, FILE* box_file, char* utf8_str,
           used += new_used;
         }
         if (uch_len > UNICHAR_LEN) {
-          tprintf("utf-8 string too long at line %d\n", line);
+          printf("utf-8 string too long at line %d\n", line);
           count = 0;
         }
       }
       if (count < 5) {
-        tprintf("Box file format error on line %i ignored\n", line);
+        printf("Box file format error on line %i ignored\n", line);
       } else {
         strcpy(utf8_str, uch);
         return true;             //read a box ok

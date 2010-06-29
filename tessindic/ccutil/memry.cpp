@@ -89,7 +89,7 @@ DLLSYM char *alloc_string(             //allocate string
   char *string;                  //allocated string
 
   if (count < 1 || count > MAX_CHUNK) {
-    tprintf ("Invalid size %d requested of alloc_string", count);
+    printf ("Invalid size %d requested of alloc_string", count);
     return NULL;
   }
 
@@ -98,7 +98,7 @@ DLLSYM char *alloc_string(             //allocate string
     string = (char *) alloc_struct (count, "alloc_string");
     //get a fast structure
     if (string == NULL) {
-      tprintf ("No memory for alloc_string");
+      printf ("No memory for alloc_string");
       return NULL;
     }
     string[0] = (inT8) count;    //save its length
@@ -107,7 +107,7 @@ DLLSYM char *alloc_string(             //allocate string
                                  //get a big block
     string = (char *) alloc_mem (count);
     if (string == NULL) {
-      tprintf ("No memory for alloc_string");
+      printf ("No memory for alloc_string");
       return NULL;
     }
     string[0] = 0;               //mark its id
@@ -142,7 +142,7 @@ DLLSYM void free_string(              //free a string
       return;
     }
   }
-  tprintf ("Non-string given to free_string");
+  printf ("Non-string given to free_string");
 #else
   free(string);
 #endif
@@ -178,11 +178,11 @@ const char *                     //name of type
   inT32 index;                   //index to structure
 
   if (count < 1 || count > MAX_CHUNK) {
-    tprintf ("Invalid size %d requested of alloc_struct", count);
+    printf ("Invalid size %d requested of alloc_struct", count);
     return NULL;
   }
 
-  //      tprintf("Allocating structure of size %d\n",count);
+  //      printf("Allocating structure of size %d\n",count);
                                  //no of MEMUNIONS-1
   struct_count = (count - 1) / sizeof (MEMUNION);
   if (struct_count < MAX_STRUCTS) {
@@ -201,7 +201,7 @@ const char *                     //name of type
                                  //get one
       element = (MEMUNION *) new_struct_block ();
       if (element == NULL) {
-        tprintf ("No memory to satisfy request for %d", (int) count);
+        printf ("No memory to satisfy request for %d", (int) count);
         return NULL;
       }
                                  //add to block list
@@ -228,7 +228,7 @@ const char *                     //name of type
                                  //just get some
     returnelement = (MEMUNION *) alloc_mem (count);
     if (returnelement == NULL) {
-      tprintf ("No memory to satisfy request for %d", (int) count);
+      printf ("No memory to satisfy request for %d", (int) count);
       return NULL;
     }
   }
@@ -266,11 +266,11 @@ const char *                     //name of type
   inT32 index;                   //to structure counts
 
   if (count < 1 || count > MAX_CHUNK) {
-    tprintf ("Invalid size %d requested of free_struct", count);
+    printf ("Invalid size %d requested of free_struct", count);
     return;
   }
 
-  //      tprintf("Freeing structure of size %d\n",count);
+  //      printf("Freeing structure of size %d\n",count);
                                  //no of MEMUNIONS-1
   struct_count = (count - 1) / sizeof (MEMUNION);
 
@@ -313,7 +313,7 @@ const char *                     //name of type
         blocks_in_use[struct_count] = 0;
       }
       else if (structs_in_use[struct_count] < 0) {
-        tprintf ("Negative number of structs of size %d in use",
+        printf ("Negative number of structs of size %d in use",
           (int) count);
       }
       else if (structs_in_use[struct_count] < blocks_in_use[struct_count]) {
