@@ -7,7 +7,6 @@
 #define vsnprintf _vsnprintf
 #endif
 #else
-#define __UNIX__
 #include <limits.h>
 #ifndef PATH_MAX
 #define MAX_PATH 4096

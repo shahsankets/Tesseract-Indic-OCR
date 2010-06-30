@@ -199,6 +199,8 @@ void DEBUG_WIN::await_destruction() {  //wait for user to close
 #endif
 //#include                                      "basefile.h"
 
+
+
 /**********************************************************************
  * DEBUG_WIN::DEBUG_WIN
  *
@@ -321,8 +323,8 @@ const char *format, ...          //special message
  **********************************************************************/
 
 void DEBUG_WIN::await_destruction() {  //wait for user to close
-  #ifdef __UNIX__
-  signal(SIGPIPE, SIG_IGN);
+  #ifdef __UNIX__   
+  //signal(SIGPIPE, SIG_IGN);
   while (!ferror (fp)) {
     sleep (1);
     fputc (0, fp);               //send nulls until error

@@ -32,7 +32,6 @@ EXTERN INT_VAR (lms_line_trials, 12, "Number of linew fits to do");
 #define SEED3       0x9abc
 #define LMS_MAX_FAILURES  3
 
-#ifndef __UNIX__
 uinT32 nrand48(               //get random number
                uinT16 *seeds  //seeds to use
               ) {
@@ -45,7 +44,6 @@ uinT32 nrand48(               //get random number
                                  //make 32 bit one
   return rand () | (rand () << 16);
 }
-#endif
 
 /**********************************************************************
  * LMS::LMS

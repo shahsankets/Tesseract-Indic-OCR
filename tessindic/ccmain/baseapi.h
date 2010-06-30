@@ -170,12 +170,6 @@ class TessBaseAPI {
                             int left, int top, int right, int bottom,
                             int* histogram);
 
-  //Works on the global image page containing devnagri script.
-  //Clips the maatraas and then makes the global image ready for the Tesseract engine.
-  //Will be executed for all images during training, but during normal operation, will be
-  //used only if the language belongs to devnagri, eg, ben, hin etc.
-  static void ClipMaatraa(int height,
-	                  int width);
 
   // Threshold the given grey or color image into the tesseract global
   // image ready for recognition. Requires thresholds and hi_value

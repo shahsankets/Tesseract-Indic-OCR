@@ -13,9 +13,12 @@ include(../viewer/viewer.pri)
 include(../textord/textord.pri)
 
 TEMPLATE = app
-TARGET = ocr
-DEPENDPATH += . ../ccutil/ ../image/ ../classify/ ../wordrec/ ../textord/ ../ccstruct/ ../dict/ ../cutil/  ../pageseg/
-INCLUDEPATH += . ../ccutil/ ../image/ ../classify/ ../wordrec/ ../textord/ ../ccstruct/ ../dict/ ../cutil/ ../pageseg
+TARGET = tesseractArm
+DEPENDPATH += . ../ccutil/ ../image/ ../classify/ ../wordrec/ ../textord/ ../ccstruct/ ../dict/ ../cutil/  ../pageseg ../viewer 
+INCLUDEPATH += . ../ccutil/ ../image/ ../classify/ ../wordrec/ ../textord/ ../ccstruct/ ../dict/ ../cutil/ ../pageseg ../viewer
+QMAKE_LIBDIR += /mnt/qt-arm/lib/ /home/debayan/symbian-sdk/epoc32/release/armv5/lib/
+LIBS += libstdcpp
+DEFINES += __UNIX__ __linux__ GRAPHICS_DISABLED
 
 # Input
 HEADERS += adaptions.h \
@@ -76,3 +79,11 @@ SOURCES += adaptions.cpp \
            tstruct.cpp \
            varabled.cpp \
            werdit.cpp
+# install
+target.path = .
+INSTALLS += target
+
+symbian {
+    TARGET.UID3 = 0xA000C610
+    include(/home/debayan/code/qt-source-code/qt/examples/symbianpkgrules.pri)
+}

@@ -768,7 +768,7 @@ MEMBLOCK *MEM_ALLOCATOR::new_block(               //get new big block
     NOMOREMEM.error ("mem_new_block", TESSLOG, NULL);
 
     #ifdef __UNIX__
-    raise(SIGTTOU);  //hangup for js
+    //raise(SIGTTOU);  //hangup for js
     #endif
     return NULL;
   }

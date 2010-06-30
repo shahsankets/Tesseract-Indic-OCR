@@ -38,10 +38,11 @@
 #include <netdb.h>
 #include <sys/socket.h>
 #ifdef __linux__
-#include <sys/prctl.h>
+//#include "sys/prctl.h"
+#include <unistd.h>
+#include <stdio.h>
 #endif
 #endif
-
 #include <iostream>
 
 const int kBufferSize = 65536;
@@ -78,7 +79,7 @@ void SVSync::StartProcess(const char* executable, const char* args) {
 #ifdef __linux__
     // Make sure the java process terminates on exit, since its
     // broken socket detection seems to be useless.
-    prctl(PR_SET_PDEATHSIG, 2, 0, 0, 0);
+    //prctl(PR_SET_PDEATHSIG, 2, 0, 0, 0);
 #endif
     char* mutable_args = strdup(args);
     int argc = 1;

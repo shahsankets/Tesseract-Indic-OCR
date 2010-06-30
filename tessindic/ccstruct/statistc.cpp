@@ -30,6 +30,20 @@
 #define SEED2       0x5678
 #define SEED3       0x9abc
 
+uinT32 nrand482(               //get random number
+               uinT16 *seeds  //seeds to use
+              ) {
+  static uinT32 seed = 0;        //only seed
+
+  if (seed == 0) {
+    seed = seeds[0] ^ (seeds[1] << 8) ^ (seeds[2] << 16);
+    srand(seed);
+  }
+                                 //make 32 bit one
+  return rand () | (rand () << 16);
+}
+
+
 /**********************************************************************
  * STATS::STATS
  *
@@ -760,7 +774,7 @@ DLLSYM inT32 choose_nth_item(               //fast median
     else if (index >= count)
       index = count - 1;
     #ifdef __UNIX__
-    equal_count = (inT32) (nrand48 (seeds) % count);
+    equal_count = (inT32) (nrand482 (seeds) % count);
     #else
     equal_count = (inT32) (rand () % count);
     #endif
@@ -842,7 +856,7 @@ int (*compar) (const void *, const void *)
   else if (index >= count)
     index = count - 1;
   #ifdef __UNIX__
-  pivot = (inT32) (nrand48 (seeds) % count);
+  pivot = (inT32) (nrand482 (seeds) % count);
   #else
   pivot = (inT32) (rand () % count);
   #endif
