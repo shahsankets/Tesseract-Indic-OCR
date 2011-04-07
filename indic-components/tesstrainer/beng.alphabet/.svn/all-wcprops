@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/46/trunk/tesseract_trainer/beng.alphabet
+END
+post_semivowels
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/32/trunk/tesseract_trainer/beng.alphabet/post_semivowels
+END
+pre_semivowels
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/32/trunk/tesseract_trainer/beng.alphabet/pre_semivowels
+END
+consonants
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/32/trunk/tesseract_trainer/beng.alphabet/consonants
+END
+rest
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/46/trunk/tesseract_trainer/beng.alphabet/rest
+END
