@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/566/trunk/api
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/526/trunk/api/Makefile.in
+END
+tesseractmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/566/trunk/api/tesseractmain.cpp
+END
+apitypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/526/trunk/api/apitypes.h
+END
+baseapi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/566/trunk/api/baseapi.cpp
+END
+pageiterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/566/trunk/api/pageiterator.cpp
+END
+tesseractmain.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/api/tesseractmain.h
+END
+resultiterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/566/trunk/api/resultiterator.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/526/trunk/api/Makefile.am
+END
+baseapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/566/trunk/api/baseapi.h
+END
+pageiterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/566/trunk/api/pageiterator.h
+END
+resultiterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/547/trunk/api/resultiterator.h
+END

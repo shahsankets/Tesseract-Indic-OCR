@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/526/trunk/po
+END
+Rules-quot
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/418/trunk/po/Rules-quot
+END
+en@quot.header
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/418/trunk/po/en@quot.header
+END
+insert-header.sin
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/418/trunk/po/insert-header.sin
+END
+quot.sed
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/418/trunk/po/quot.sed
+END
+boldquot.sed
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/418/trunk/po/boldquot.sed
+END
+en@boldquot.header
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/418/trunk/po/en@boldquot.header
+END
+remove-potcdate.sin
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/418/trunk/po/remove-potcdate.sin
+END
+Makefile.in.in
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/418/trunk/po/Makefile.in.in
+END
+pl.po
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/421/trunk/po/pl.po
+END
+Makevars
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/418/trunk/po/Makevars
+END
+POTFILES.in
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/418/trunk/po/POTFILES.in
+END
+tesseract.pot
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/526/trunk/po/tesseract.pot
+END

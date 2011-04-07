@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/575/trunk/wordrec
+END
+chop.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/526/trunk/wordrec/chop.h
+END
+chopper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/575/trunk/wordrec/chopper.cpp
+END
+drawfx.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/526/trunk/wordrec/drawfx.h
+END
+gradechop.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/wordrec/gradechop.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/575/trunk/wordrec/Makefile.in
+END
+wordclass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/526/trunk/wordrec/wordclass.cpp
+END
+outlines.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/wordrec/outlines.cpp
+END
+language_model.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/575/trunk/wordrec/language_model.cpp
+END
+measure.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/4/trunk/wordrec/measure.h
+END
+closed.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/wordrec/closed.cpp
+END
+bestfirst.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/wordrec/bestfirst.h
+END
+wordrec.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/535/trunk/wordrec/wordrec.h
+END
+associate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/563/trunk/wordrec/associate.cpp
+END
+plotseg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/wordrec/plotseg.cpp
+END
+pieces.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/526/trunk/wordrec/pieces.h
+END
+olutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/526/trunk/wordrec/olutil.h
+END
+render.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/wordrec/render.cpp
+END
+tface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/535/trunk/wordrec/tface.cpp
+END
+plotedges.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/526/trunk/wordrec/plotedges.cpp
+END
+matchtab.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/wordrec/matchtab.h
+END
+chop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/526/trunk/wordrec/chop.cpp
+END
+tally.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/4/trunk/wordrec/tally.h
+END
+findseam.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/wordrec/findseam.h
+END
+drawfx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/563/trunk/wordrec/drawfx.cpp
+END
+makechop.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/wordrec/makechop.h
+END
+gradechop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/526/trunk/wordrec/gradechop.cpp
+END
+heuristic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/535/trunk/wordrec/heuristic.cpp
+END
+segsearch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/526/trunk/wordrec/segsearch.cpp
+END
+wordrec.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/575/trunk/wordrec/wordrec.cpp
+END
+chopper.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/526/trunk/wordrec/chopper.h
+END
+bestfirst.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/526/trunk/wordrec/bestfirst.cpp
+END
+wordclass.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/wordrec/wordclass.h
+END
+outlines.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/wordrec/outlines.h
+END
+language_model.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/575/trunk/wordrec/language_model.h
+END
+pieces.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/wordrec/pieces.cpp
+END
+olutil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/535/trunk/wordrec/olutil.cpp
+END
+closed.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/526/trunk/wordrec/closed.h
+END
+associate.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/wordrec/associate.h
+END
+plotseg.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/304/trunk/wordrec/plotseg.h
+END
+matchtab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/wordrec/matchtab.cpp
+END
+render.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/526/trunk/wordrec/render.h
+END
+tally.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/4/trunk/wordrec/tally.cpp
+END
+findseam.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/wordrec/findseam.cpp
+END
+makechop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/wordrec/makechop.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/wordrec/Makefile.am
+END
+plotedges.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/wordrec/plotedges.h
+END

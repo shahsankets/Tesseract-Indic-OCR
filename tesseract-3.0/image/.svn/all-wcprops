@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/564/trunk/image
+END
+imgunpk.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/338/trunk/image/imgunpk.h
+END
+imgs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/561/trunk/image/imgs.cpp
+END
+svshowim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/355/trunk/image/svshowim.cpp
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/564/trunk/image/Makefile.in
+END
+img.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/561/trunk/image/img.h
+END
+image.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/294/trunk/image/image.cpp
+END
+imgs.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/526/trunk/image/imgs.h
+END
+svshowim.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/165/trunk/image/svshowim.h
+END
+imgtiff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/561/trunk/image/imgtiff.cpp
+END
+image.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/294/trunk/image/image.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/564/trunk/image/Makefile.am
+END
+imgtiff.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/561/trunk/image/imgtiff.h
+END
+imgerrs.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/4/trunk/image/imgerrs.h
+END

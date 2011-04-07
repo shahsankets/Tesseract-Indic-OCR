@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/573/trunk/training
+END
+mftraining.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/573/trunk/training/mftraining.cpp
+END
+unicharset_extractor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/526/trunk/training/unicharset_extractor.cpp
+END
+tessopt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/training/tessopt.cpp
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/534/trunk/training/Makefile.in
+END
+mergenf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/training/mergenf.cpp
+END
+combine_tessdata.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/526/trunk/training/combine_tessdata.cpp
+END
+commontraining.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/573/trunk/training/commontraining.cpp
+END
+tessopt.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/training/tessopt.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/training/Makefile.am
+END
+mergenf.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/training/mergenf.h
+END
+commontraining.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/573/trunk/training/commontraining.h
+END
+wordlist2dawg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/573/trunk/training/wordlist2dawg.cpp
+END
+cntraining.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/526/trunk/training/cntraining.cpp
+END

@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/578/trunk/vs2008
+END
+classify.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/544/trunk/vs2008/classify.vcproj
+END
+cube.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/544/trunk/vs2008/cube.vcproj
+END
+libtesseract_training.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/544/trunk/vs2008/libtesseract_training.vcproj
+END
+cutil.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/544/trunk/vs2008/cutil.vcproj
+END
+image.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/578/trunk/vs2008/image.vcproj
+END
+neural_networks.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/544/trunk/vs2008/neural_networks.vcproj
+END
+dict.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/578/trunk/vs2008/dict.vcproj
+END
+ccutil.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/544/trunk/vs2008/ccutil.vcproj
+END
+tesseract.nsi
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/514/trunk/vs2008/tesseract.nsi
+END
+tesseract.sln
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/526/trunk/vs2008/tesseract.sln
+END
+textord.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/578/trunk/vs2008/textord.vcproj
+END
+ccstruct.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/578/trunk/vs2008/ccstruct.vcproj
+END
+ccmain.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/578/trunk/vs2008/ccmain.vcproj
+END
+cntraining.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/553/trunk/vs2008/cntraining.vcproj
+END
+wordlist2dawg.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/553/trunk/vs2008/wordlist2dawg.vcproj
+END
+tesseract.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/553/trunk/vs2008/tesseract.vcproj
+END
+mftraining.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/553/trunk/vs2008/mftraining.vcproj
+END
+unicharset_extractor.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/544/trunk/vs2008/unicharset_extractor.vcproj
+END
+viewer.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/550/trunk/vs2008/viewer.vcproj
+END
+combine_tessdata.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/553/trunk/vs2008/combine_tessdata.vcproj
+END
+wordrec.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/544/trunk/vs2008/wordrec.vcproj
+END
+libtesseract_tessopt.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/544/trunk/vs2008/libtesseract_tessopt.vcproj
+END

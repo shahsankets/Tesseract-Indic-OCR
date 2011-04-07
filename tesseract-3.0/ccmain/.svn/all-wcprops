@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/567/trunk/ccmain
+END
+werdit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/538/trunk/ccmain/werdit.cpp
+END
+applybox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/567/trunk/ccmain/applybox.cpp
+END
+cube_reco_context.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/526/trunk/ccmain/cube_reco_context.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/567/trunk/ccmain/Makefile.in
+END
+output.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/526/trunk/ccmain/output.h
+END
+fixspace.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/526/trunk/ccmain/fixspace.h
+END
+tfacep.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/556/trunk/ccmain/tfacep.h
+END
+tessvars.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/ccmain/tessvars.cpp
+END
+osdetect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/567/trunk/ccmain/osdetect.cpp
+END
+fixxht.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/538/trunk/ccmain/fixxht.cpp
+END
+reject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/556/trunk/ccmain/reject.cpp
+END
+tesseract_cube_combiner.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/526/trunk/ccmain/tesseract_cube_combiner.h
+END
+pagesegmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/567/trunk/ccmain/pagesegmain.cpp
+END
+pgedit.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/526/trunk/ccmain/pgedit.h
+END
+adaptions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/556/trunk/ccmain/adaptions.cpp
+END
+thresholder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/547/trunk/ccmain/thresholder.cpp
+END
+tesseractclass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/567/trunk/ccmain/tesseractclass.cpp
+END
+imgscale.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/363/trunk/ccmain/imgscale.cpp
+END
+control.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/556/trunk/ccmain/control.h
+END
+tfacepp.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/556/trunk/ccmain/tfacepp.h
+END
+tessbox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/ccmain/tessbox.cpp
+END
+tessedit.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/526/trunk/ccmain/tessedit.h
+END
+scaleimg.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/4/trunk/ccmain/scaleimg.h
+END
+cube_reco_context.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/526/trunk/ccmain/cube_reco_context.cpp
+END
+paramsd.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/526/trunk/ccmain/paramsd.h
+END
+tessembedded.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/4/trunk/ccmain/tessembedded.h
+END
+docqual.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/526/trunk/ccmain/docqual.h
+END
+output.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/556/trunk/ccmain/output.cpp
+END
+fixspace.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/567/trunk/ccmain/fixspace.cpp
+END
+werdit.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/526/trunk/ccmain/werdit.h
+END
+tesseract_cube_combiner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/526/trunk/ccmain/tesseract_cube_combiner.cpp
+END
+pgedit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/567/trunk/ccmain/pgedit.cpp
+END
+cube_control.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/567/trunk/ccmain/cube_control.cpp
+END
+tessvars.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/526/trunk/ccmain/tessvars.h
+END
+osdetect.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/526/trunk/ccmain/osdetect.h
+END
+control.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/567/trunk/ccmain/control.cpp
+END
+reject.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/526/trunk/ccmain/reject.h
+END
+tfacepp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/556/trunk/ccmain/tfacepp.cpp
+END
+tessedit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/567/trunk/ccmain/tessedit.cpp
+END
+scaleimg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/363/trunk/ccmain/scaleimg.cpp
+END
+paramsd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/526/trunk/ccmain/paramsd.cpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/556/trunk/ccmain/Makefile.am
+END
+tessembedded.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/157/trunk/ccmain/tessembedded.cpp
+END
+docqual.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/567/trunk/ccmain/docqual.cpp
+END
+thresholder.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/547/trunk/ccmain/thresholder.h
+END
+tesseractclass.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/567/trunk/ccmain/tesseractclass.h
+END
+imgscale.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/4/trunk/ccmain/imgscale.h
+END
+pagewalk.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/526/trunk/ccmain/pagewalk.cpp
+END
+recogtraining.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/526/trunk/ccmain/recogtraining.cpp
+END
+tessbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/526/trunk/ccmain/tessbox.h
+END

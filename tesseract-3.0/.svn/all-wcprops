@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/581/trunk
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/577/trunk/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/526/trunk/Makefile.in
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/4/trunk/AUTHORS
+END
+tesseract.spec
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/461/trunk/tesseract.spec
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/541/trunk/ChangeLog
+END
+ReleaseNotes
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/577/trunk/ReleaseNotes
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/541/trunk/README
+END
+eurotext.tif
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/84/trunk/eurotext.tif
+END
+runautoconf
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/368/trunk/runautoconf
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/581/trunk/configure.ac
+END
+ABOUT-NLS
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/458/trunk/ABOUT-NLS
+END
+acinclude.m4
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/165/trunk/acinclude.m4
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/4/trunk/INSTALL
+END
+makemoredists
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/546/trunk/makemoredists
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/4/trunk/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/526/trunk/Makefile.am
+END
+phototest.tif
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/4/trunk/phototest.tif
+END
+INSTALL.SVN
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/22/trunk/INSTALL.SVN
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/4/trunk/NEWS
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/492/trunk/aclocal.m4
+END

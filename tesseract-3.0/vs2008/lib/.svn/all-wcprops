@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/553/trunk/vs2008/lib
+END
+libpng-static-mtdll.lib
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/473/trunk/vs2008/lib/libpng-static-mtdll.lib
+END
+libjpeg-static-mtdll.lib
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/553/trunk/vs2008/lib/libjpeg-static-mtdll.lib
+END
+liblept-static-mtdll-debug.lib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/553/trunk/vs2008/lib/liblept-static-mtdll-debug.lib
+END
+libtiff-static-mtdll.lib
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/473/trunk/vs2008/lib/libtiff-static-mtdll.lib
+END
+giflib-static-mtdll-debug.lib
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/473/trunk/vs2008/lib/giflib-static-mtdll-debug.lib
+END
+zlibd-static-mtdll-debug.lib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/553/trunk/vs2008/lib/zlibd-static-mtdll-debug.lib
+END
+liblept-static-mtdll.lib
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/553/trunk/vs2008/lib/liblept-static-mtdll.lib
+END
+liblept.lib
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/553/trunk/vs2008/lib/liblept.lib
+END
+giflib-static-mtdll.lib
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/473/trunk/vs2008/lib/giflib-static-mtdll.lib
+END
+libpng-static-mtdll-debug.lib
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/473/trunk/vs2008/lib/libpng-static-mtdll-debug.lib
+END
+zlib-static-mtdll.lib
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/473/trunk/vs2008/lib/zlib-static-mtdll.lib
+END
+libjpeg-static-mtdll-debug.lib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/553/trunk/vs2008/lib/libjpeg-static-mtdll-debug.lib
+END
+libleptd.lib
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/553/trunk/vs2008/lib/libleptd.lib
+END
+liblept168.dll
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/553/trunk/vs2008/lib/liblept168.dll
+END
+liblept.dll
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/553/trunk/vs2008/lib/liblept.dll
+END
+libtiff-static-mtdll-debug.lib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/473/trunk/vs2008/lib/libtiff-static-mtdll-debug.lib
+END
+liblept168d.dll
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/553/trunk/vs2008/lib/liblept168d.dll
+END
+libleptd.dll
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/553/trunk/vs2008/lib/libleptd.dll
+END
